@@ -1,0 +1,13 @@
+name: Recipes
+version: '${project.version}'
+main: me.leonardo.recipes.Main
+api-version: 1.19
+authors: [ yLeoft ]
+
+commands:
+  carteira:
+    aliases: [ car, abrircar, abrircarteira ]
+    description: Carteira.
+  pix:
+    aliases: [ enviarpix ]
+    description: Pix.
